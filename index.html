@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Drive - Google Drive</title>
+	<style>
+		body {
+			background-image: url('bg.avif');
+			background-size: cover;
+			background-position: center;
+		}
+
+		.overlay {
+			position: fixed;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			width: 200px; /* adjust as needed */
+			background-color: rgba(0, 0, 0, 0.5);
+			color: white;
+			padding: 20px;
+		}
+
+		.overlay a {
+			display: block;
+			color: white;
+			font-size: 18px;
+			margin-bottom: 10px;
+			text-decoration: none;
+		}
+
+		.centered {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			color: white;
+			font-size: 24px;
+			text-align: center;
+			width: 100%;
+			z-index: 1;
+		}
+
+		.image-list {
+			position: absolute;
+			bottom: 20px;
+			left: 50%;
+			transform: translateX(-50%);
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			z-index: 1;
+		}
+
+		.image-list img {
+			width: 50px;
+			height: 50px;
+			margin-right: 10px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<div class="centered">Unb10cked Apps</div>
+	<div class="overlay">
+		<a href="your-link-1">Link 1</a>
+		<a href="your-link-2">Link 2</a>
+		<a href="your-link-3">Link 3</a>
+	</div>
+	<div class="image-list">
+		<a href="1v1.lol/index.html"><img src="1v1.png" alt="Image 1"></a>
+		<a href="MC.html"><img src="mc.png" alt="Image 2"></a>
+		<a href="your-link-6"><img src="your-image-url-3" alt="Image 3"></a>
+	</div>
+</body>
+</html>
